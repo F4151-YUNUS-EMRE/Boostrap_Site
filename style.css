@@ -1,0 +1,77 @@
+nav .nav-item a {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: lighter;
+  transition: color 0.5s;
+}
+
+nav .nav-item a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner {
+  background-image: url(./image/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: purple;
+}
+
+.circle {
+  display: inline-block;
+  vertical-align: center;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(243, 62, 62);
+}
+
+.circle i {
+  position: relative;
+  top: 30px;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.about-img {
+  object-fit: cover;
+}
+
+.team-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid rgba(128, 128, 128, 0.521);
+}
+
+.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  line-height: 40px;
+}
+
+.social:hover {
+  color: white;
+}
+
+.client-img {
+  /* height: 50px; */
+  max-height: 75px;
+}
+
+.contact-us {
+  background-image: url(./image/map.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
